@@ -1,0 +1,35 @@
+.app_navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-grey);
+    padding: 1rem 2rem;
+}
+
+.app_navbar_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app_navbar_logo img {
+    width: 250px;
+}
+
+.app_navbar_ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app_navbar_ul li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app_navbar_ul li:hover {
+    color: orange;
+}
