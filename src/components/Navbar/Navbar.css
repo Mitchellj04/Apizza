@@ -1,10 +1,14 @@
 .app_navbar {
     width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--color-grey);
     padding: 1rem 2rem;
+}
+
+.app_navbar_menu {
+    justify-content: center;
+    align-items: center;
 }
 
 .app_navbar_logo {
@@ -13,9 +17,9 @@
     align-items: center;
 }
 
-.app_navbar_logo img {
+/* .app_navbar_logo img {
     width: 250px;
-}
+} */
 
 .app_navbar_ul {
     flex: 1;
