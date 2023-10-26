@@ -30,29 +30,29 @@ const wines = [
 
 const brewery = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Rose',
     price: '$20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Newburge Heights",
     price: '$16',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
-    title: 'Daiquiri',
+    title: 'Drop of Sunshine',
     price: '$10',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Criss craft tuesday',
     price: '$31',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
+    title: 'Speculator Night',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: ' | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
 
@@ -79,4 +79,4 @@ const pizza = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, brewery, pizza };

@@ -1,0 +1,13 @@
+.app__header{
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.app__header-h1 {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
