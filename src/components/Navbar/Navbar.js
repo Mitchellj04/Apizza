@@ -8,8 +8,8 @@ import './Navbar.css'
 const Navbar = () => {
   // const navigate = useNavigate()
   return (   
-    <>  
-  <div className='app_navbar_logo'>
+    <div className='app__navbar'>
+  <div className='app__navbar_logo app__bg'>
           <img src={images.logo_no_background}/>
         </div>
     <nav className='app_navbar'>
@@ -24,7 +24,8 @@ const Navbar = () => {
         </ul>
         </div>
     </nav>
-    </>   
+    </div>
+  
   )
 }
 

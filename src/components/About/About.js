@@ -1,4 +1,7 @@
 import React from 'react'
+import './About.css'
+import images from '../../constants/images'
+
 
 const About = () => {
   return (
@@ -7,8 +10,21 @@ const About = () => {
           <img></img>
       </div>
       <div className='app__aboutus-content flex__center'>
-        <div className='app__aboutus-content_about'></div>
+        <div className='app__aboutus-content_about'>
+          <h1 className='headtext__cormorant'>About Us</h1>
+          <p>Family owned and run</p>
+          <button className='custom__button'>Learn More</button>
+        </div>
+        <div className='app__wrapper_img'>
+          <img src={images.pizzapeel}/>
+        </div>
+        <div className='app__aboutus-content_about'>
+          <h1 className='headtext__cormorant'>History</h1>
+          <p>Family owned and run</p>
+          <button className='custom__button'>Learn More</button>
+        </div>
       </div>
+
     </div>
   )
 }

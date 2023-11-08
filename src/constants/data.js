@@ -28,7 +28,7 @@ const wines = [
   },
 ];
 
-const brewery = [
+const beers = [
   {
     title: 'Rose',
     price: '$20',
@@ -79,4 +79,4 @@ const pizza = [
   },
 ];
 
-export default { wines, brewery, pizza };
+export default { wines, beers, pizza };

@@ -5,7 +5,7 @@ const SubHeading = ({title}) => {
   return (
     <div className='app__subheading'>
         <div className=''>
-            <p className='p__corsans'>{title}</p>
+            <p className='p__cormorant'>{title}</p>
         </div>
     </div>
   )
