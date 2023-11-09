@@ -30,53 +30,92 @@ const wines = [
 
 const beers = [
   {
-    title: 'Rose',
+    title: 'Board Walk',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'Lager | Pale Ale',
   },
   {
     title: "Newburge Heights",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: ' IPA | American IPA',
   },
   {
     title: 'Drop of Sunshine',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'IPA | Hazy Juicy | ',
   },
   {
     title: 'Criss craft tuesday',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Lager | American Lager',
   },
   {
     title: 'Speculator Night',
     price: '$26',
-    tags: ' | Sweet Vermouth | Campari | Orange garnish',
+    tags: ' Stout | Irish Dry | Dark',
   },
 ];
 
 const pizza = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Original Cheese',
+    small: '$',
+    medium: '$',
+    large: '$',
   },
   {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Margarita',
+    small: '$',
+    medium: '$',
+    large: '$'
+  }
+ , {
+    title: 'Cheese and Pepporoni',
+    small: '$',
+    medium: '$',
+    large: '$',
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Meat Lovers',
+    small: '$',
+    medium: '$',
+    large: '$',
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'White Sauce',
+    small: '$',
+    medium: '$',
+    large: '$',
   },
 ];
 
-export default { wines, beers, pizza };
+const toppings = [
+  {name: ''},{name: ''},{name: ''},{name: ''},{name: ''},{name: ''},{name: ''},{name: ''}
+
+]
+
+const specialty = [
+  {
+    title: 'CT Spud Pie',
+    price: '$',
+    tags: 'Mashed Potato | Bacon | Cheese | Sour cream | Green onion',
+  },
+  {
+    title: 'Buffalo Chicken',
+    price: '$',
+    tags: 'Buffalo Chicken | Cheese | Ranch',
+  },
+  {
+    title: 'Ham and Sea',
+    price: '$',
+    tags: 'White Sauce | Shrimp | Prescuto | Cheese',
+  },
+  {
+    title: 'Chicken Bacon Ranch',
+    price: '$',
+    tags: 'Chicken | Bacon | Ranch | Cheese',
+  },
+
+];
+
+export default { wines, beers, pizza, specialty };
