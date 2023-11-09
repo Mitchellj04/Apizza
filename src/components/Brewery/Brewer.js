@@ -33,7 +33,7 @@ const Brewery = () => {
   };
 
   return (
-    <div className="app__specialMenu app__bg flex__section section__padding" id="menu">
+    <div className="app__specialMenu app__bg flex__section section__padding" id="brews">
       <div className="app__specialMenu-title">
         <SubHeading />
         <h1 className="headtext__cormorant">Brewery and Winery Favorites</h1>
