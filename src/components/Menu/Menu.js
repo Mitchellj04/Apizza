@@ -21,7 +21,13 @@ const Menu = () => {
 
  const mapToppings = () => {
     return data.toppings.map((topping) => {
-        return <p>{topping.name}</p>
+        return <PizzaItem 
+        key={topping.title}
+        title={topping.title}
+        small={topping.small}
+        medium={topping.medium}
+        large={topping.large}
+        tags={topping.tags}/>
     })
  }
 

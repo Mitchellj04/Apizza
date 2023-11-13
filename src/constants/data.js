@@ -95,7 +95,28 @@ const pizza = [
 ];
 
 const toppings = [
-  {name: 'Bacon'},{name: 'Meatball'},{name: 'Pepporoni'},{name: 'Sausage'},{name: 'Chicken'},{name: ''},{name: ''},{name: ''}
+  {
+    title: 'Meat',
+    small: '$2',
+    medium: '$3',
+    large: '$4',
+    tags: 'Bacon | Meatball | Chicken | Sausage | Pepporoni | Prescuto'
+  },
+  {
+    title: 'Cheese',
+    small: '$2',
+    medium: '$3',
+    large: '$4',
+    tags: 'Extra | Buff Mozzerella | Feta | Goat'
+  },
+  {
+    title: 'Veggies',
+    small: '$2',
+    medium: '$3',
+    large: '$4',
+    tags: 'Olives | Broccoli | Onion | Peppers | Mushrooms | Eggplant | Tomato'
+  },
+
 
 ]
 

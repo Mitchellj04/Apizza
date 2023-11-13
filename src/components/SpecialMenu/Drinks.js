@@ -3,9 +3,13 @@ import images from "../../constants/images";
 import data from "../../constants/data";
 import SubHeading from "../SubHeading";
 import MenuItem from "../MenuItem/MenuItem";
-import "./Brewer.css";
+import "./Drinks.css";
+import { useNavigate } from "react-router-dom";
 
 const Brewery = () => {
+
+  const navigate = useNavigate()
+
   const mapWines = () => {
     return data.wines.map((wine, index) => {
       return (
@@ -43,6 +47,9 @@ const Brewery = () => {
         <div className="app__specialMenu-menu_wine">
           <h4 className="app__specialMenu-heading">Winery</h4>
           <div className="app__specialMenu-menu_item">{mapWines()}</div>
+          <div style={{ margin: "15px" }}>
+        <button className="custom__button" onClick={() => navigate('/winery')}>Read More</button>
+      </div>
         </div>
 
         <div className="app__specialMenu-menu_img">
@@ -52,10 +59,10 @@ const Brewery = () => {
         <div className="app__specialMenu-menu_beer">
           <p className="app__specialMenu-heading">Brewery</p>
           <div className="app__specialMenu-menu_item">{mapBeers()}</div>
-        </div>
+          <div style={{ margin: "15px" }}>
+        <button className="custom__button" onClick={() => navigate('/brewery')}>Read More</button>
       </div>
-      <div style={{ margin: "15px" }}>
-        <button className="custom__button">Read More</button>
+        </div>
       </div>
     </div>
   );

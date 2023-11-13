@@ -1,0 +1,45 @@
+.app__menuBrewery {
+    width: 100%;
+}
+
+.app__menuBrewery-title {
+    margin: 2rem 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.app__menuBrewery_image-brew {
+    display: flex;
+    width: 100%;
+}
+
+.app__menuBrewery_image-brew img{
+    width: 100%;
+    height: auto;
+}
+
+.app__menuBrewery_content-title {
+    margin: 4rem 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.app__menuBrewery_content-about {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.app__menuBrewery_content-aboutText{
+    width: 500px;
+    margin: 2rem 2rem;
+}
+
+.app__menuBrewery_content-aboutImg {
+    width: 800px;
+}
+
+.app__menuBrewery_content-aboutImg img {
+    width: 100%;
+    border-radius: 5px;
+}
