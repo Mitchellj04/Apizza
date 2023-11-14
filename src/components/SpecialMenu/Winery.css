@@ -1,0 +1,48 @@
+.app__menuWinery {
+    width: 100%;
+}
+
+.app__menuWinery-title {
+margin: 2rem 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.app__menuWinery_image-vineyard {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.app__menuWinery_image-vineyard img{
+    width: 1200px;
+    height: auto;
+}
+
+.app__menuWinery_content-title {
+    margin: 4rem 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.app__menuWinery_content-about {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.app__menuWinery_content-aboutText{
+    width: 500px;
+    margin: 2rem 2rem;
+}
+
+.app__menuWinery_content-aboutImg {
+    width: 800px;
+}
+
+.app__menuWinery_content-aboutImg img {
+    width: 100%;
+    border-radius: 5px;
+}

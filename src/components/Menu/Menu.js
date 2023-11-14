@@ -58,6 +58,7 @@ const Menu = () => {
 
         <div className="app__specialMenu-menu_toppings">
           <h4 className="app__specialMenu-heading">Toppings</h4>
+          
           <div className="app__specialMenu-menu_item">{mapToppings()}</div>
         </div>
 
@@ -67,7 +68,7 @@ const Menu = () => {
         </div>
       </div>
       <div style={{ margin: "15px" }}>
-        <button className="custom__button">Order Online</button>
+        <button className="custom__button" onClick={() => {}}>Order Online</button>
       </div>
     </div>
   )

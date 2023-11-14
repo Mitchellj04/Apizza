@@ -9,6 +9,11 @@ import brewerykegs from '../assets/brewery2.jpg'
 import brewing from '../assets/brewing.jpeg'
 import winery from '../assets/winery.jpg'
 import taps from '../assets/taps.jpeg'
+import vineyard from '../assets/vineyard.jpeg'
+import winemaking from '../assets/winemaking.png'
+import winebarrels from '../assets/winebarrels.jpeg'
+
+
 
 export default {
     logo_no_background,
@@ -21,5 +26,8 @@ export default {
     brewerykegs,
     brewing,
     winery,
-    taps
+    taps,
+    vineyard,
+    winemaking,
+    winebarrels
 }

@@ -17,9 +17,9 @@ const Navbar = () => {
         <div className='app__navbar_menu'>
         <ul className='app__navbar_ul'>
           <li className='app__navbar_links' onClick={() => navigate('/')}><a href='#home'>Home</a></li>
-          <li className='app__navbar_links'><a href='#menu'>Menu</a></li>
-          <li className='app__navbar_links'><a href='#brews'>Brews</a></li>
-          <li className='app__navbar_links'><a href='#about'>About</a></li>
+          <li className='app__navbar_links' onClick={() => navigate('/#menu')}><a href='#menu'>Menu</a></li>
+          <li className='app__navbar_links' onClick={() => navigate('/#brews')}><a href='#brews'>Brews</a></li>
+          <li className='app__navbar_links' onClick={() => navigate('/#about')}><a href='#about'>About</a></li>
           <li className='app__navbar_links'><a href='#contact'>Contact</a></li>
         </ul>
         </div>
