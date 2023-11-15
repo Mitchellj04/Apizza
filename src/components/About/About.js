@@ -16,7 +16,7 @@ const About = () => {
           <button className='custom__button'>Learn More</button>
         </div>
         <div className='app__wrapper_img'>
-          <img src={images.pizzapeel}/>
+          <img src={images.peel}/>
         </div>
         <div className='app__aboutus-content_about'>
           <h1 className='headtext__cormorant'>History</h1>

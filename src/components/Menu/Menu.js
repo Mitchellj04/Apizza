@@ -4,8 +4,13 @@ import data from "../../constants/data";
 import SubHeading from "../SubHeading";
 import MenuItem from "../MenuItem/MenuItem";
 import PizzaItem from '../MenuItem/PizzaItem';
+import './Menu.css'
 
 const Menu = () => {
+
+  const meats = ['Bacon', 'Meatball', 'Chicken', 'Sausage', 'Pepporoni', 'Prescuto']
+  const cheese = ['Extra', 'Buff Mozzerella', 'Feta', 'Goat']
+  const veggies = ['Olives', 'Broccoli', 'Onion', 'Peppers', 'Mushrooms', 'Eggplant', 'Tomato']
 
  const mapClassic = () => {
     return data.pizza.map((pie, index) => {
@@ -29,6 +34,12 @@ const Menu = () => {
         large={topping.large}
         tags={topping.tags}/>
     })
+ }
+
+ const mapMeat = () => {
+  return meats.map((meat) => {
+    return <p className='p__opensans' style={{color: '#AAA'}}>{meat} |</p>
+  })
  }
 
  const mapSpecialty = () => {
@@ -56,10 +67,33 @@ const Menu = () => {
           <div className="app__specialMenu-menu_item">{mapClassic()}</div>
         </div>
 
-        <div className="app__specialMenu-menu_toppings">
+        <div className="app__specialMenu-menu-toppings">
           <h4 className="app__specialMenu-heading">Toppings</h4>
+          <div className='app__menuitem'>
+            <p className='p__cormorant' style={{color: '#DCCA87'}}>Meat</p>
+          <div className='app__menuitem-dash-topping'></div>
+           <p className='p__cormorant'>Sm $2  Md $3  Lg $4</p> 
+           <p className='p__opensans' style={{color: '#AAA'}}>Bacon | Meatball | Chicken | Sausage | Pepporoni | Prescuto</p>
+          </div>
+
+          <div className='app__menuitem'>
+          <p className='p__cormorant' style={{color: '#DCCA87'}}>Cheese</p>
+          <div className='app__menuitem-dash-topping'></div>
+           <p className='p__cormorant'>Sm $2  Md $3  Lg $4</p> 
+           <p className='p__opensans' style={{color: '#AAA'}}>Extra | Buff Mozzerella | Feta | Goat</p>
+          </div>
+
+          <div className='app__menuitem'>
+          <p className='p__cormorant' style={{color: '#DCCA87'}}>Vegetables</p>
+          <div className='app__menuitem-dash-topping'></div>
+           <p className='p__cormorant'>Sm $2  Md $3  Lg $4</p> 
+           <p className='p__opensans' style={{color: '#AAA'}}>Olives | Broccoli | Onion | Peppers | Mushrooms | Eggplant | Tomato</p>
+          </div>
           
-          <div className="app__specialMenu-menu_item">{mapToppings()}</div>
+
+          <div className="app__menuitem-img">
+            <img src={images.pizza}/>
+          </div>
         </div>
 
         <div className="app__specialMenu-menu_specialty">

@@ -12,7 +12,8 @@ import taps from '../assets/taps.jpeg'
 import vineyard from '../assets/vineyard.jpeg'
 import winemaking from '../assets/winemaking.png'
 import winebarrels from '../assets/winebarrels.jpeg'
-
+import pizza from '../assets/pizza.jpeg'
+import peel from '../assets/peel.png'
 
 
 export default {
@@ -29,5 +30,7 @@ export default {
     taps,
     vineyard,
     winemaking,
-    winebarrels
+    winebarrels,
+    pizza,
+    peel
 }
