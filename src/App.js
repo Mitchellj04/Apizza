@@ -5,10 +5,12 @@ import Navbar from './components/Navbar/Navbar';
 import Brewery from './components/SpecialMenu/Brewery';
 import Winery from './components/SpecialMenu/Winery';
 import OurStory from './components/OurStory';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}/>

@@ -6,7 +6,7 @@ import "./Brewery.css";
 const Brewery = () => {
 
   return (
-    <div className="app__menuBrewery app__bg flex__section section__padding">
+    <div className="app__menuBrewery app__bg flex__section section__padding" id="brewery-home">
       <div className="app__menuBrewery-title">
         <SubHeading />
         <h1 className="headtext__cormorant">Welcome to our Brewery</h1>

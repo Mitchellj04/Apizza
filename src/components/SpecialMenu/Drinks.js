@@ -60,7 +60,7 @@ const Brewery = () => {
           <p className="app__specialMenu-heading">Brewery</p>
           <div className="app__specialMenu-menu_item">{mapBeers()}</div>
           <div style={{ margin: "15px" }}>
-        <button className="custom__button" onClick={() => navigate('/brewery')}>Read More</button>
+        <button className="custom__button" onClick={() => navigate('/brewery#brewery-home')}>Read More</button>
       </div>
         </div>
       </div>
