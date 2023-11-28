@@ -18,7 +18,7 @@ const Brewery = () => {
 
         <div className="app__menuBrewery_content-title">
           <SubHeading title={"Our Story"} />
-          <h1 className="headtext__cormorant">About Us</h1>
+          <h1 className="headtext__cormorant">About the Vineyard</h1>
         </div>
 
         <div className="app__menuBrewery_content-about">

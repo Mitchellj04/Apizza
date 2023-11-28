@@ -14,7 +14,8 @@ import winemaking from '../assets/winemaking.png'
 import winebarrels from '../assets/winebarrels.jpeg'
 import pizza from '../assets/pizza.jpeg'
 import peel from '../assets/peel.png'
-
+import start from '../assets/thestart.jpg'
+import homemade from '../assets/homepie.jpg'
 
 export default {
     logo_no_background,
@@ -32,5 +33,7 @@ export default {
     winemaking,
     winebarrels,
     pizza,
-    peel
+    peel,
+    start,
+    homemade
 }

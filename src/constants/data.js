@@ -31,27 +31,27 @@ const wines = [
 const beers = [
   {
     title: 'Board Walk',
-    price: '$20',
+    price: '$8',
     tags: 'Lager | Pale Ale',
   },
   {
     title: "Newburge Heights",
-    price: '$16',
+    price: '$7',
     tags: ' IPA | American IPA',
   },
   {
     title: 'Drop of Sunshine',
-    price: '$10',
+    price: '$8',
     tags: 'IPA | Hazy Juicy | ',
   },
   {
     title: 'Criss craft tuesday',
-    price: '$31',
+    price: '$6',
     tags: 'Lager | American Lager',
   },
   {
     title: 'Speculator Night',
-    price: '$26',
+    price: '$9',
     tags: ' Stout | Irish Dry | Dark',
   },
 ];

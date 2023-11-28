@@ -1,0 +1,11 @@
+
+
+.app__ourStory-img {
+    display: flex;
+    width: 500px;
+}
+
+.app__ourStory-img img {
+    width: 100%;
+    height: auto;
+}
