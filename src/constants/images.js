@@ -16,6 +16,7 @@ import pizza from '../assets/pizza.jpeg'
 import peel from '../assets/peel.png'
 import start from '../assets/thestart.jpg'
 import homemade from '../assets/homepie.jpg'
+import footer from '../assets/footer.png'
 
 export default {
     logo_no_background,
@@ -35,5 +36,6 @@ export default {
     pizza,
     peel,
     start,
-    homemade
+    homemade,
+    footer
 }

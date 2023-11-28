@@ -1,0 +1,32 @@
+.app__footer {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__footer-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.app__footer-section_content, .app__footer-section_img, .app__footer-section_hours {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.app__footer-section-img {
+    width: 500px;
+    height: auto;
+}
+
+.app__footer-section-img img {
+    width: 100%;
+}
