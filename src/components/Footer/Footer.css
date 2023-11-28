@@ -22,6 +22,17 @@
     text-align: center;
 }
 
+.app__footer-section_social {
+    margin-top: 0.5rem;
+}
+
+.app__footer-section_social svg{
+    color: white;
+    margin: 0.5rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+
 .app__footer-section-img {
     width: 500px;
     height: auto;
