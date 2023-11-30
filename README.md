@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Veneziali Apizza
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Veneziali Apizza 
 
-## Available Scripts
+[Offical Website](https://venezialiapizza.netlify.app/)
 
-In the project directory, you can run:
+## About Us
 
-### `npm start`
+Our story starts back in the 2000s as kids we would religiously have pizza every Friday of the month.
+We even centered what we were doing that night around having pizza. Over the years we would go from ordering pizza to making it at home. 
+To eventually installing an outdoor pizza oven at our house. The pizza oven allowed our family to perfect a process of making pizza one pie at a time. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Histort 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The name Veneziali comes from my grandmothers maiden name who was italian. Her family was first generation immigrants into the United States.
+This is where we got most of our Italian traditions from. We still have distant family who lives over in a small town in Italy. Through these traditions and experiences we got is where our love for pizza making was born and soon followed producing wine. 
 
-### `npm test`
+## Store 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Veneziali Apizza 
 
-### `npm run build`
+Dunbar Hill Vineyard 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dunbar Hill Brewery 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Family Owned and Operated 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Justin Mitchell - Owner/CEO
+John Mitchell - Owner/Vineyard president 
+Kim Mitchell - Owner/COO
+Tyler Mitchell - President/CFO 
+Haley Mitchell - Publisher/Manager 
 
-### `npm run eject`
+## Project Details 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Sections 
+- Home 
+- Navbar 
+- About Us/ History 
+- Brewery/ Winery 
+- Menu 
+- Footer 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Navigation 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Navbar 
+The navbar has a list of scroll to options that when selected will scroll down to the desired section in which you are trying to navigate to. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### About/History
+The about us and history section there are two buttons which will redirect you to a different page either the about us section. The about us section will give you a detailed description about the business and who we are. The history section gives a detailed explination of the business why it was created and the name of the business. 
 
-## Learn More
+#### Brewery/Winery 
+These two sections display a list of wines and beers that are most popular at the restaurant. Both sections have buttons at the bottom to redirect you to a new page which gives a detailed explination of our other establishments which consist of a Brewery and a Winery. For more details on these two business there will be a seperate website linked soon. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Menu 
+The menu section displays a quick overview of some of the pizza we have at the restuarant. We are no limited to these menu items but they are what we are known for. There are the classic pies and then a list of our specialty pies as well. In the middle is an option for an assortment of toppings that you can choose to add to any classic pie.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technology
 
-### Code Splitting
+Note: The link at the top is a live demo of the website 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Tech Stack 
 
-### Analyzing the Bundle Size
+- Javascript 
+- React 
+- HTML 
+- CSS 
+- React-router-dom 
+- React-icon 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Local 
 
-### Making a Progressive Web App
+To run with website on the local drive start by forking and cloning the directory into a new project 
+- Run 'npm install' 
+- Run 'npm start' this will start a server on the local drive 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Creator 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Justin Mitchell](https://www.linkedin.com/in/justin-mitchell-887a47149/)
+[Portfolio Website](https://justinmitchell.netlify.app/)
