@@ -10,7 +10,7 @@ Our story starts back in the 2000s as kids we would religiously have pizza every
 We even centered what we were doing that night around having pizza. Over the years we would go from ordering pizza to making it at home. 
 To eventually installing an outdoor pizza oven at our house. The pizza oven allowed our family to perfect a process of making pizza one pie at a time. 
 
-### Histort 
+### History 
 
 The name Veneziali comes from my grandmothers maiden name who was italian. Her family was first generation immigrants into the United States.
 This is where we got most of our Italian traditions from. We still have distant family who lives over in a small town in Italy. Through these traditions and experiences we got is where our love for pizza making was born and soon followed producing wine. 
